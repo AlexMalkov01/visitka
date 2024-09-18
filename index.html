@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script defer src="./index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алексей Малков - React Developer</title>
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="./assets/alex_malkov.jpg" alt="Алекс Малков" class="profile-photo">
+            <h1>Алексей Малков</h1>
+            <p>Начинающий React-разработчик. Желающий найти свою команду и развиваться вместе с вами !</p>
+        </div>
+    </header>
+    <section class="tech-stack">
+        <div class="accordion">
+            <button class="accordion-button" onclick="toggleAccordion(this)">
+                Основной стек технологий <span class="icon">▼</span>
+            </button>
+            <div class="accordion-content">
+                <p>JS, TS, Git, React, React TS, React Hooks, React Context, CSS Module, React Router Dom, Vite, Bootstrap, SASS, React Redux, Axios.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="additional-stack">
+        <div class="accordion">
+            <button class="accordion-button" onclick="toggleAccordion(this)">
+                Дополнительный стек технологий <span class="icon">▼</span>
+            </button>
+            <div class="accordion-content">
+                <p>JavaScript, HTML, CSS3, Git, Node.js, HTML5, Адаптивная верстка, Кроссбраузерная верстка, Валидная верстка, Swiper-JS, Yandex Maps API, ООП-SOLID, API, БЭМ, Less, TypeScript, Vite, Rollup, Parcel.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="skills">
+        <h2>Навыки</h2>
+        <div class="icons">
+            <div class="icon">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="icon">
+                <i class="fab fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="icon">
+                <i class="fab fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="icon">
+                <i class="fab fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="icon">
+                <i class="fab fa-redux"></i>
+                <p>Redux</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h2>Портфолио</h2>
+        <ul>
+            <li><a href="https://github.com/AlexMalkov01/pizza_tsx/tree/main/src">Проект 1</a> — Приложение на React с использованием Redux</li>
+            <li><a href="https://alexmalkov01.github.io/KinoDoza/">Проект 2</a> — Динамический сайт на JavaScript</li>
+        </ul>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://t.me/AlexMalkov_frontEnd"><img src="./assets/telegram_icon.svg" alt="tg">@AlexMalkov_frontEnd</a></li>
+                <li><a href="tel:+79822912572"><img src="./assets/phone_icon.svg" alt="tel"> 8-982-291-25-72</a></li>
+                <li><a href="mailto:Alex228369@yandex.ru"><img src="./assets/yandex_icon.svg" alt="email">Alex228369@yandex.ru</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
