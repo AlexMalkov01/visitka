@@ -1,5 +1,10 @@
 /* Мобильные устройства (до 600px) */
 @media (max-width: 600px) {
+
+    header p {
+        margin-top: 15px;
+    }
+
     body {
         padding: 20px;
     }
@@ -29,6 +34,10 @@
         font-size: 40px; /* Уменьшаем иконки */
     }
 
+    .icon:hover i {
+        font-size: 50px;
+    }
+
     .icon p {
         font-size: 1em;
     }
@@ -49,8 +58,13 @@
 
 /* Планшеты (600px - 900px) */
 @media (min-width: 601px) and (max-width: 900px) {
+
     body {
         padding: 30px;
+    }
+
+    header p {
+        margin-top: 15px;
     }
 
     .profile-photo {
@@ -76,6 +90,10 @@
 
     .icon i {
         font-size: 50px;
+    }
+
+    .icon:hover i {
+        font-size: 60px;
     }
 
     .icon p {

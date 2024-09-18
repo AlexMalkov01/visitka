@@ -7,10 +7,12 @@
 }
 
 body {
+    user-select: none;
     background-color: #1e1e1e; /* Темный фон */
     color: #f4f4f4;
     text-align: center;
     padding: 50px;
+    box-shadow: 20 4px 15px rgba(85, 255, 255, 0.767);
 }
 
 /* Заголовки */
@@ -37,6 +39,10 @@ p {
 /* Стили для профиля */
 header {
     margin-bottom: 50px;
+}
+
+header p {
+    margin-top: 25px;
 }
 
 .profile-container {
@@ -97,11 +103,12 @@ header {
 .icon i {
     font-size: 60px;
     color: #f4f4f4;
-    transition: transform 0.3s ease-in-out;
+    transition: font-size 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .icon:hover i {
-    transform: scale(1.2);
+    font-size: 70px;
 }
 
 .icon p {
