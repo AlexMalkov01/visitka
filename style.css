@@ -141,6 +141,22 @@ header p {
     cursor: pointer;
 }
 
+#html_icon {
+    color: orange;
+}
+
+#css_icon {
+    color: #61dafb;
+}
+
+#js_icon {
+    color: yellow;
+}
+
+#react_icon{
+    color: #61dafb ;
+}
+
 .icon:hover i {
     font-size: 70px;
 }
